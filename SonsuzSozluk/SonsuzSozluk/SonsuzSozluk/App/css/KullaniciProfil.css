@@ -1,0 +1,375 @@
+﻿/*PROFİL BASLANGIC*/
+
+
+.bannerbir {
+    width: 100%;
+    height: 60px;
+    background-color: #808080;
+    float: right;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+}
+
+.kisi {
+    color: #444444;
+    font-weight: bold;
+    border: solid 2px #444444;
+    padding: 5px;
+    transition: all 500ms;
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    text-shadow: 1px 1px 4px #dedede;
+}
+
+    .kisi:hover {
+        background-color: #444444;
+        color: #fff;
+        cursor: pointer;
+    }
+
+.row .pp {
+    width: 30%;
+    height: 280px;
+    background-color: #e4e4e4;
+    margin: auto;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    border: 2px solid #808080;
+    border-top: 0 !important;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    margin-bottom: 20px;
+    display:none;
+}
+
+    .row .pp img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 10px solid #808080;
+        margin-top: -100px;
+    }
+
+@media (max-width:810px) {
+    .kisi {
+        font-size: 9px;
+    }
+}
+
+.tablocikis {
+    margin-left: 10px;
+    width: 46px;
+}
+
+    .tablocikis span {
+        background-color: rgba(222, 222, 222, 0.5);
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+        transition: all 500ms;
+    }
+
+        .tablocikis span:hover {
+            border-radius: 50%;
+            transform: scale(0.4);
+        }
+
+.tabsrenkayarprofil {
+    border-bottom: 5px solid #444444;
+}
+
+.tabsKapsayıcı {
+    width: 100%;
+    height: 630px;
+}
+
+h2.tabsbaslık {
+    margin-top: 30px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+.hrayarprofil {
+    width: 20%;
+    text-align: left;
+    height: 1px;
+    background-color: #999999;
+}
+
+.fieldsetgibi {
+    border: solid #999999 1px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.textboxayar {
+    width: 100%;
+    background-color: #fff !important;
+    margin-bottom: 5px;
+}
+
+.buttonguncelle {
+    background-color: #444444;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+    .buttonguncelle:hover {
+        text-shadow: 2px 2px 5px #000;
+    }
+
+.colorChange {
+    margin: 10px;
+    width: 200px;
+}
+
+    .colorChange > .box {
+        width: 100%;
+        height: 300PX;
+        background-color: #333333;
+        float: right;
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+        box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    }
+
+    .colorChange > .colorSelect {
+        float: left;
+    }
+
+.colorSelect > input {
+    vertical-align: middle;
+}
+.tooltipayar {
+    color:#333;
+}
+.tooltipayar:hover {
+    text-decoration: none !important;
+    color:#222 !important;
+}
+    .tooltipayar:focus {
+        color:#333;
+    }
+
+.anabaslıkgundem {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+
+.anabaslıkyorumlar {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.yorumkısmısı {
+    width: 95%;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: left;
+    padding: 15px;
+    margin: auto;
+    border-right: 2px solid rgba(51, 51, 51, 0.5);
+    border-left: 2px solid rgba(51, 51, 51, 0.5);
+    border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+    display: block;
+}
+
+.acılanhaberbaslıkYorum {
+    width: 95%;
+    background-color: #E5E5E5;
+    color: #333;
+    text-align: left;
+    padding: 15px;
+    margin: auto;
+    border-right: 2px solid rgba(51, 51, 51, 0.5);
+    border-left: 2px solid rgba(51, 51, 51, 0.5);
+    border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+    display: none;
+}
+
+.acılanhaberbaslık {
+    width: 95%;
+    background-color: #E5E5E5;
+    color: #333;
+    text-align: left;
+    padding: 15px;
+    margin: auto;
+    border-right: 2px solid rgba(51, 51, 51, 0.5);
+    border-left: 2px solid rgba(51, 51, 51, 0.5);
+    border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+}
+
+.yorumTarih {
+    color: #333;
+    font-size:10px !important;
+    text-align: left;
+}
+.LinkButtonSettings {
+    color: black;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    float:right;
+    padding:0 !important;
+margin-top:-30px;
+}
+.footerFOR {
+    width: 95%;
+    border-radius: 0px 0px 50px 50px;
+    -moz-border-radius: 0px 0px 50px 50px;
+    -webkit-border-radius: 0px 0px 50px 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.btnEnİleriAcılan {
+    background-color: #111111;
+    border: 0px;
+    text-align: center;
+    transition: all 500ms;
+    font-weight: bold;
+}
+
+    .btnEnİleriAcılan:hover {
+        transform: scale(1.5);
+        background-color: #fff;
+        color: #111111;
+        text-shadow: 2px 2px 5px #000;
+    }
+
+.btnİleriAcılan {
+    background-color: #111111;
+    border: 0px;
+    text-align: center;
+    transition: all 500ms;
+    font-weight: bold;
+}
+
+    .btnİleriAcılan:hover {
+        transform: scale(1.5);
+        background-color: #fff;
+        color: #111111;
+        text-shadow: 2px 2px 5px #000;
+    }
+
+.btnEngeriAcılan {
+    background-color: #111111;
+    border: 0px;
+    text-align: center;
+    transition: all 500ms;
+    font-weight: bold;
+}
+
+    .btnEngeriAcılan:hover {
+        transform: scale(1.5);
+        background-color: #fff;
+        color: #111111;
+        text-shadow: 2px 2px 5px #000;
+    }
+
+.btnGeriAcılan {
+    background-color: #111111;
+    border: 0px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+    .btnGeriAcılan:hover {
+        transform: scale(1.5);
+        background-color: #fff;
+        color: #111111;
+        text-shadow: 1px 1px 4px #000;
+    }
+.tooltip {  
+    width:200px !important;
+}
+.aramaayar {
+    position: relative !important;
+    top: -1px !important;
+    height: 33px !important;
+    width: 75% !important;
+    display: inline-block !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+.aramaayarbutton {
+    background-color: #444 !important;
+    color: white !important;
+    font-family: Arial !important;
+    border:0 !important;
+    border-radius:0 !important;
+    transition:all 300ms;
+    }
+    .aramaayarbutton:hover {
+        background-color: #868686 !important;
+    }
+.tabsanabaslıkayar {
+    color:#333;
+}
+.boslukSil {
+    margin-bottom:0 !important;
+}
+@media (max-width:706px) {
+    .tabsanabaslıkayar {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width:1126px) {
+    .row .pp {
+        height: 300px !important;
+    }
+}
+
+@media (min-width:768px) {
+    .tabsanabaslıkayar {
+        font-size: 15px !important;
+    }
+}
+/*PROFİL BİTİŞ*/

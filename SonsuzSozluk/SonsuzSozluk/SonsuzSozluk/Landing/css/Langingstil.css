@@ -1,0 +1,399 @@
+﻿
+/*///////////////////////////////////////////////// CAROUSEL*/
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+    }
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.carouselIcerik {
+    margin-top: -270px !important;
+}
+
+.carouselCaptionBaslik {
+    background-color: rgba(100,100,100,0.5);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.carouselCaptionIcerik {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(100,100,100,0.5);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.carouselButton {
+    padding: 10px 30px !important;
+}
+
+@media (max-width: 768px) {
+    .carouselIcerik {
+        margin-top: -230px !important;
+    }
+}
+
+@media (max-width: 666px) {
+    .carouselCaptionBaslik {
+        font-size: 16px !important;
+    }
+
+    .carouselCaptionIcerik {
+        font-size: 14px !important;
+    }
+
+    .carouselButton {
+        font-size: 12px !important;
+    }
+
+    .carouselIcerik {
+        margin-top: -200px !important;
+    }
+}
+/*END CAROUSEL*/
+
+/*-----------------------------
+        FURKAN------*/
+
+hr {
+    width: 150px;
+    background-color: #e60000;
+    height: 2px !important;
+    margin-bottom: 100px !important;
+}
+
+.iconlar {
+    font-size: 40px;
+    color: #262626;
+    transition: all .7s;
+}
+
+    .iconlar:hover {
+        transform: rotate(360deg);
+        cursor: pointer;
+        color: #e60000;
+    }
+
+.baslikAyar {
+    font-weight: lighter;
+    font-family: Calibri;
+    margin-top: 50px;
+}
+
+.yaziAyar {
+    font-size: 16px;
+}
+/*----END FURKAN-------*/
+
+
+/*Yazarlar*/
+.our-team {
+    position: relative;
+    overflow: hidden;
+    height: 355px;
+}
+
+    .our-team .team-pic > img {
+        width: 80%;
+        height: auto;
+        border-radius: 50%;
+        height: 200px;
+    }
+
+    .our-team .team-profile {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.46) 29%,rgba(0,0,0,0.29) 56%,rgba(104,38,32,0.2) 69%,rgba(102,5,5,0.13) 80%,rgba(130,40,40,0) 100%);
+        padding: 0 24px;
+        position: absolute;
+        right: 0;
+        bottom: -46%;
+        width: 90%;
+        min-height: 245px;
+        transition: all 0.25s ease 0s;
+    }
+
+    .our-team:hover .team-profile {
+        bottom: 0px;
+    }
+
+    .our-team .team-profile:before {
+        content: "";
+        border-bottom: 30px solid rgba(77, 102, 137, 0.78);
+        border-right: 262px solid transparent;
+        position: absolute;
+        top: -30px;
+        left: 0;
+    }
+
+    .our-team .team-title {
+        line-height: 22px;
+        font-family: serif,Arial;
+    }
+
+        .our-team .team-title:after {
+            content: "";
+            display: block;
+            width: 10%;
+            border-bottom: 4px solid #fff;
+            padding-bottom: 5px;
+        }
+
+        .our-team .team-title a {
+            font-size: 23px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+            display: block;
+            transition: all 0.2s linear 0s;
+        }
+
+            .our-team .team-title a:hover {
+                color: #333;
+                text-decoration: none;
+            }
+
+        .our-team .team-title > small {
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+    .our-team .description {
+        color: #fff;
+        line-height: 25px;
+    }
+
+        .our-team .description:after {
+            content: "";
+            display: block;
+            border-bottom: 1px solid #fff;
+            margin-top: 10px;
+        }
+
+    .our-team .team-social {
+        padding: 0;
+    }
+
+        .our-team .team-social > li {
+            display: inline-block;
+            margin-right: 12px;
+        }
+
+            .our-team .team-social > li > a {
+                color: #fff;
+                font-size: 15px;
+            }
+
+                .our-team .team-social > li > a:hover {
+                    text-decoration: none;
+                }
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        width: 310px;
+        margin: 0 auto 15px;
+    }
+
+        .our-team .team-profile:before {
+            border-right: 300px solid transparent;
+        }
+}
+
+@media only screen and (max-width: 359px) {
+    .our-team {
+        width: auto;
+    }
+}
+/*End Yazarlar*/
+/*sss*/
+* {
+    text-decoration: none !important;
+}
+
+/* Form Style */
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+#accordion .panel {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 5px;
+}
+
+#accordion .panel-heading {
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+
+#accordion .panel-title a {
+    display: block;
+    padding: 15px;
+    background: #aa1818 !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #0C0119;
+    transition: all 0.5s ease 0s;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+
+    #accordion .panel-title a:hover {
+        background: rgba(12, 1, 25, 0.8);
+    }
+
+#accordion .panel-body {
+    font-size: 14px;
+    color: #6f0000;
+    background: #fff !important;
+    padding: 15px 20px;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    border-top: 0 !important;
+    position: relative;
+}
+
+    #accordion .panel-body:after {
+        content: "";
+        position: absolute;
+        top: -30px;
+        left: 40px;
+        border: 15px solid transparent;
+        border-bottom: 15px solid #fff !important;
+    }
+/*end sss*/
+
+.iconrenkayar {
+    color: #e60000 !important;
+    font-size: xx-large !important;
+    margin-bottom: 15px !important;
+    margin-right: 0 !important;
+}
+
+.sayac {
+    color: #fff;
+    font-size: 36px;
+}
+
+.icerik {
+    color: #fff;
+    font-size: 16px;
+}
+/*Footer*/
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #333333;
+    color: #878c94;
+}
+
+    .footer .title {
+        text-align: left;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .footer .social-icon {
+        padding: 0px;
+        margin: 0px;
+    }
+
+        .footer .social-icon a {
+            display: inline-block;
+            color: #fff;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+    .footer .acount-icon a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .footer .acount-icon .fa {
+        margin-right: 25px;
+    }
+
+    .footer .category a {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        padding: 5px 20px;
+        margin: 1px;
+        border-radius: 4px;
+        margin-top: 6px;
+        background-color: black;
+        border: solid 1px #fff;
+    }
+
+    .footer .payment {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+        .footer .payment li {
+            list-style-type: none;
+        }
+
+            .footer .payment li a {
+                text-decoration: none;
+                display: inline-block;
+                color: #fff;
+                float: left;
+                font-size: 25px;
+                padding: 10px 10px;
+            }
+
+.social-icon a i {
+    transition: all .7s;
+    padding: 10px;
+}
+
+    .social-icon a i:hover {
+        color: #e60000 !important;
+        border: solid 2px #e60000 !important;
+        border-radius: 50%;
+    }
+
+@media (max-width:768px) {
+    .icerik {
+        margin-bottom: 30px !important;
+        display: block !important;
+    }
+
+    .sifirla {
+        margin-left: 0 !important;
+    }
+}
+/*Footer End*/

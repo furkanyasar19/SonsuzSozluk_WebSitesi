@@ -1,0 +1,149 @@
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+E:\DOSYALAR\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+E:\DOSYALAR\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+E:\DOSYALAR\SonsuzSozluk\SonsuzSozluk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DOSYALAR\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+E:\DOSYALAR\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+E:\DOSYALAR\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+E:\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+E:\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+E:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+E:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+E:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+F:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+F:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+F:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk1\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Uğur Taşdemir\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Uğur Taşdemir\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Uğur Taşdemir\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Uğur Taşdemir\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Uğur Taşdemir\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Uğur Taşdemir\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Toshiba\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Toshiba\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Toshiba\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Toshiba\Desktop\SonsuzSozluk\SonsuzSozluk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Toshiba\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+E:\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+E:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CopyComplete
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\UgurCan\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\kerem\OneDrive\Masaüstü\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\kerem\OneDrive\Masaüstü\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Erdem Önel\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Erdem Önel\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Erdem Önel\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Erdem Önel\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Erdem Önel\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\Erdem Önel\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Erdem Önel\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+G:\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+G:\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+G:\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+G:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+G:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+G:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+G:\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CopyComplete
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\FurkanYasar\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Murat\Desktop\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Murat\Desktop\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Murat\Desktop\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\ydk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\kerem\OneDrive\Masaüstü\ydk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\ydk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\ydk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\kerem\OneDrive\Masaüstü\ydk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\ydk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CopyComplete
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+F:\sonsuzSozluk--YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk (2)\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Murat\Desktop\SonsuzSozluk (2)\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk (2)\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk (2)\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\Murat\Desktop\SonsuzSozluk (2)\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\SonsuzSozluk (2)\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk (2)\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\SonsuzSozluk2\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\Murat\Desktop\SonsuzSozluk2\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk2\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk2\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\SonsuzSozluk2\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\Murat\Desktop\SonsuzSozluk2\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\Murat\Desktop\SonsuzSozluk2\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\kerem\OneDrive\Masaüstü\Yeni klasör\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\kerem\OneDrive\Masaüstü\Yeni klasör\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\Yeni klasör\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\Yeni klasör\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\kerem\OneDrive\Masaüstü\Yeni klasör\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\Yeni klasör\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\Yeni klasör\SonsuzSozluk\SonsuzSozluk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kerem\OneDrive\Masaüstü\Yeni\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\kerem\OneDrive\Masaüstü\Yeni\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\Yeni\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\Yeni\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\kerem\OneDrive\Masaüstü\Yeni\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\Yeni\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\kerem\OneDrive\Masaüstü\YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\YENİ\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb
+C:\Users\kerem\OneDrive\Masaüstü\YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\kerem\OneDrive\Masaüstü\YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\kerem\OneDrive\Masaüstü\YENİ\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll.config
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.dll
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\bin\SonsuzSozluk.pdb
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csprojResolveAssemblyReference.cache
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.csproj.CopyComplete
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.dll
+C:\Users\FurkanYasar\Downloads\SonsuzSozluk\SonsuzSozluk\SonsuzSozluk\obj\Debug\SonsuzSozluk.pdb

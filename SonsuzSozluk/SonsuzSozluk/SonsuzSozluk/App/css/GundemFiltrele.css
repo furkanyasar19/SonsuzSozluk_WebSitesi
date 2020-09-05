@@ -1,0 +1,290 @@
+﻿
+.gundemTarih2 {
+    color: #808080 !important;
+    font-size: 11px !important;
+    float: right !important;
+    padding: 20px 0 !important;
+    position: relative;
+    bottom: 10px;
+}
+
+body {
+    background-color: #f5f5f5 !important;
+    padding-bottom:40px;
+}
+
+.dısdiv {
+    background-color: #fff !important;
+    border-radius: 4px !important;
+    padding: 3px 10px !important;
+    margin-top: 10px;
+    margin-left: 20px !important;
+  
+}
+
+.gundemBaslik {
+    font-size: 20px !important;
+    color: #c32b2b !important;
+    display: block !important;
+    margin-bottom: 20px !important;
+    padding-left: 6px !important;
+}
+
+.gundemTarih {
+    color: #808080 !important;
+    font-size: 11px !important;
+}
+
+.gundemIcerik {
+    display: block !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    height: 55px !important;
+    overflow: auto !important;
+    font-size: 13px !important;
+    text-align: justify;
+}
+
+.buton {
+    border: 2px solid #fff;
+    background-color: #fff;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: all 1s;
+    color: #808080;
+    position: relative;
+    right:0px;
+}
+
+.sayfabuton {
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: bold;
+    width: 40px;
+    height: 30px;
+    transition: all 1s;
+    border: none;
+}
+
+    .sayfabuton:hover {
+        background-color: #e9dada;
+    }
+
+.linkayar {
+    text-decoration: none;
+}
+
+.divkapsa {
+    width: 100% !important;
+    padding:0 20px !important;
+    height:auto;
+}
+.gundemBaslikFiltrele {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-family: Verdana;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #c6c6c6;
+    margin:25px 0;
+    width:102%;
+}
+
+@media (min-width:768px) {
+    .divkapsa {
+        width: 98% !important;
+    }
+}
+
+@media (max-width:770px) {
+    .gundemTarih2 {
+        position: relative;
+        bottom: 40px;
+        padding: 10px 0 !important;
+    }
+
+    .gundemBaslik {
+        margin-top: 8px !important;
+    }
+}
+
+@media (max-width:624px) {
+    .gundemTarih2 {
+        font-size: 8px !important;
+    }
+}
+
+@media (max-width:800px) {
+    .gundemTarih2 {
+        font-size: 9px !important;
+    }
+
+    .gundemTarih {
+        font-size: 9px !important;
+    }
+}
+
+@media (max-width:1000px) {
+    .gundemTarih2 {
+        font-size: 10px !important;
+    }
+
+    .gundemTarih {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width:542px) {
+    .gundemTarih2 {
+        font-size: 8px !important;
+    }
+    .gundemTarih {
+        font-size: 8px !important;
+    }
+
+}
+
+@media (max-width:1100px) {
+    .buton {
+        font-size: 11px !important;
+    }
+}
+
+@media (max-width:980px) {
+    .buton {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width:941px) {
+    .buton {
+        font-size: 9px !important;
+    }
+}
+
+@media (max-width:901px) {
+    .buton {
+        font-size: 7px !important;
+    }
+}
+
+@media (max-width:830px) {
+    .buton {
+        font-size: 6px !important;
+    }
+}
+
+@media (max-width:770px) {
+    .gundemTarih2 {
+        margin-top: 50px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .gundemTarih2 {
+        margin-top: 0 !important;
+    }
+}
+@media (max-width:780px) {
+    .buton {
+        font-size: 5px !important;
+    }
+}
+@media (max-width:768px) {
+    .buton {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width:544px) {
+    .buton {
+        font-size: 8px !important;
+    }
+}
+
+@media (max-width:460px) {
+    .buton {
+        font-size: 6px !important;
+    }
+
+    .gundemTarih2 {
+        font-size: 6px !important;
+    }
+}
+@media (max-width:600px) {
+    .ayar {
+      height:190px !important;
+    }
+}
+@media (max-width:618px) {
+    .ayar {
+        height: 240px !important;
+    }
+}
+@media (max-width:518px) {
+    .gundemBaslik {
+        width: 110% !important;
+    }
+}
+
+@media (max-width:372px) {
+    .ayar {
+        height: 270px !important;
+    }
+}
+
+@media (max-width:720px) {
+    .buton {
+        font-size: 8px !important;
+    }
+}
+@media (max-width:639px) {
+    .buton {
+        font-size: 7px !important;
+    }
+}
+@media (max-width:610px) {
+    .buton {
+        font-size: 6px !important;
+    }
+}
+@media (max-width:679px) {
+    .buton {
+        font-size: 5px !important;
+    }
+}
+@media (max-width:550px) {
+    .gundemIcerik{
+        font-size:10px !important;
+    }
+    .buton {
+        font-size: 4px !important;
+    }
+}
+@media (max-width:520px) {
+    .buton {
+        font-size: 3px !important;
+    }
+    .gundemBaslik {
+        margin-bottom:10px !important;
+    }
+}
+@media (max-width:768px) {
+    .gundemTarih2 {
+        position: relative;
+        top: 3px;
+    }
+    .divkapsa
+    {
+        width:100% !important;
+    }
+}
+
+@media (max-width:601px) {
+    .divkapsa {
+        width: 100% !important;
+    }
+}

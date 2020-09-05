@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SonsuzSozluk.App.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Sonsuz Sözlük</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%-- bootstrap --%>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <%-- bootstrap ! --%>
+    <%-- stil sayfası --%>
+    <link href="css/app.css" rel="stylesheet" />
+    <%-- stil sayfası ! --%>
+    <%-- animate.css --%>
+    <link href="../Admin/css/animate.css" rel="stylesheet" />
+    <%-- animate.css ! --%>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-inverse" style="padding: 10px 0; border: none; border-radius: 0; background-color: white !important">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="Default.aspx">
+                            <img src="img/logoSozluk.png" />
+                        </a>
+                    </div>
+                    <div class="navbar-form navbar-left">
+                        <div class="input-group">
+                            <asp:TextBox ID="txtArama" runat="server" placeholder="Ara" CssClass="aramaayar form-control"></asp:TextBox>
+                            <div class="input-group-btn">
+                                <button class="btn btn-default aramaayarbutton " data-toggle="tooltip" title="Arama iptal için tekrar tıkla!"  data-placement="right" runat="server" id="btnAra" placeholder="" onserverclick="btnAra_Click">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                         <li class="liayar animated wobble">
+                            <a href="#">
+                                <asp:Image ID="imgYetkiDurum" Width="22" Height="22" CssClass="KullaniciYetki" runat="server" />
+                            </a>
+                        </li>
+                        <li class="liayar animated wobble">
+                            <a href="#">
+                                <asp:LinkButton ID="lnkkullaniciadi" runat="server" Style="color: #e60000;position:relative;bottom:29px !important;" Text=""></asp:LinkButton>
+                            </a>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="lnkCikis" CssClass="Linkbuttonayar" runat="server" OnClick="lnkCikis_Click">Çıkış</asp:LinkButton></li>
+                        <li><%--<a href="Sigup.aspx"><span class="glyphicon glyphicon-user" style="color: #e60000"></span>&nbsp;<span style="color: black">kaydol</span> </a>--%>
+                            <asp:LinkButton ID="lnkKaydol" PostBackUrl="~/App/Sigup.aspx" CssClass="glyphicon glyphicon-user" ForeColor="#e60000" runat="server"><span style="color:#000;font-family:Helvetica Neue,Helvetica,Arial,sans-serif"> Kaydol</span> </asp:LinkButton>
+                        </li>
+                        <li><%--<a href="Login.aspx"><span class="glyphicon glyphicon-log-in" style="color: #e60000"></span>&nbsp;<span style="color: black">giriş yap</span> </a>--%>
+                            <asp:LinkButton ID="lnkGiris" PostBackUrl="~/App/Login.aspx" CssClass="glyphicon glyphicon-log-in" ForeColor="#e60000" runat="server"><span style="color:#000;font-family:Helvetica Neue,Helvetica,Arial,sans-serif"> &nbsp;Giriş Yap</span> </asp:LinkButton>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="lnkGundemEkle" CssClass="Linkbuttonayar" runat="server" PostBackUrl="~/App/GundemEkle.aspx">Gündem Ekle</asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <%-- menu ! --%>
+            <%-- Gündem --%>
+            <div class="container-fluid" style="padding: 0 40px;">
+                <div class="row">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

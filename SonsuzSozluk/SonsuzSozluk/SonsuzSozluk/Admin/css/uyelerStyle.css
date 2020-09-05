@@ -1,0 +1,82 @@
+﻿/*UYE CONTENT*/
+.uyeHeading {
+    background-color: #c5501a;
+    padding: 20px 10px;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    text-shadow: 2px 2px 5px #000;
+}
+
+.uyeSubtitle {
+    line-height: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+    font-weight: 700;
+}
+
+.uyeSubtitleContent {
+    width: 25%;
+}
+
+.uyeContent {
+    line-height: 50px;
+    height: 50px;
+}
+
+.uyeSub-Content{
+    width: 25%;
+}
+
+.LinkButtonSettings {
+    color: black;
+    transition: all 0.3s;
+    background-color: transparent !important;
+}
+
+    .LinkButtonSettings:hover {
+        color: #c5501a;  
+    }
+
+.uyeTableSettings {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    margin-bottom: 50px;
+}
+.boslukSil {
+    margin-bottom: 0 !important;
+    border-radius:0 !important;
+}
+/*END UYE CONTENT*/
+/*TABLE (OLD)
+.tableSettings {
+    border-top: none !important;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+    box-shadow: 0px 0px 12px 0px rgba(128,128,128,0.77);
+}
+
+    .tableSettings tr:hover {
+        background-color: #c5501a !important;
+        color: #fff !important;
+        transition: all 0.5s;
+    }
+
+.iconLink {
+    color: #000 !important;
+}
+
+.tableSettings tr:hover .iconLink {
+    color: #fff !important;
+}
+
+.tableSettings thead tr:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+END TABLE*/

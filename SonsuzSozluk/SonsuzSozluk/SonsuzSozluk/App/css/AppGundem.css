@@ -1,0 +1,82 @@
+﻿body {
+    background-color:#f5f5f5 !important;
+}
+.dısdiv {
+background-color:#fff !important;
+border-radius:4px !important;
+padding:10px !important;
+margin-top:10px;
+margin-left:20px !important;
+width:100%;
+   
+}
+.gundemBaslik {
+    font-size:20px !important;
+    color:#c32b2b !important;
+    display:block !important;
+}
+.gundemTarih {
+color:#808080 !important;
+font-size:11px !important; 
+}
+.gundemIcerik {
+    display: block !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    height: 55px !important;
+    overflow: auto !important;
+    font-size: 13px !important;
+    text-align:justify;
+}
+.buton {
+border:2px solid #fff;
+background-color:#fff;
+height:40px;
+font-size:14px;
+border-radius:4px;
+transition:all 1s;
+color:#707070;
+font-family:Arial;
+font-weight:bold;
+position:relative;
+top:-3px;
+}
+    .buton:hover {
+    background-color:#fff !important;
+    
+    }
+.butonSpan {
+    color: #707070;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sayfabuton {
+    margin:20px 5px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: bold;
+    width:40px;
+    height:30px;
+    transition:all 1s;
+    border:none;
+    
+}
+    .sayfabuton:hover {
+    
+    background-color:#e9dada;
+    }
+.linkayar {
+text-decoration:none;
+
+}
+.divkapsa {
+    width:73% !important;
+}
+@media (max-width:768px) {
+    .divkapsa {
+        width: 98% !important;
+    }
+        
+}

@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A43A88B-DE17-47E8-BF66-E1063899C2C0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SonsuzSozluk</RootNamespace>
+    <AssemblyName>SonsuzSozluk</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\css\yorumlar.css" />
+    <Content Include="Admin\GundemIncele.aspx" />
+    <Content Include="Admin\images\confirmation.png" />
+    <Content Include="Admin\images\trash.png" />
+    <Content Include="Admin\Yorum.aspx" />
+    <Content Include="App\css\animate.css" />
+    <Content Include="App\css\GundemDuzenle.css" />
+    <Content Include="App\css\KullaniciProfil.css" />
+    <Content Include="App\css\KullaniciProfil1.css" />
+    <Content Include="App\GundemDuzenle.aspx" />
+    <Content Include="App\img\AltınMadalya.png" />
+    <Content Include="App\img\dislike.png" />
+    <Content Include="App\img\GumusMadalya.png" />
+    <Content Include="App\img\like.png" />
+    <Content Include="App\img\share.png" />
+    <Content Include="App\img\YazarIcon.PNG" />
+    <Content Include="App\img\UyeIcon.png" />
+    <Content Include="App\js\kullaniciprofilduzenle.js" />
+    <Content Include="App\KullaniciProfil.aspx" />
+    <Content Include="App\YorumDuzenle.aspx" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\csi.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="bin\roslyn\System.AppContext.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Console.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.Process.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.DriveInfo.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\roslyn\System.IO.Pipes.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\System.Security.AccessControl.dll" />
+    <Content Include="bin\roslyn\System.Security.Claims.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="bin\roslyn\System.Security.Principal.Windows.dll" />
+    <Content Include="bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="bin\roslyn\System.Threading.Thread.dll" />
+    <Content Include="bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\SonsuzSozluk.dll" />
+    <Content Include="bin\SonsuzSozluk.pdb" />
+    <Content Include="images\alert.png" />
+    <Content Include="images\anasayfa_kurumsal_firma_logolari.jpg" />
+    <Content Include="images\anasayfa_logolar_kurumsal_uyelerimiz1.png" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\btnskytsrc.jpg" />
+    <Content Include="images\confirm.png" />
+    <Content Include="images\email.png" />
+    <Content Include="images\error.png" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\footer_golge.png" />
+    <Content Include="images\golge.png" />
+    <Content Include="images\google.png" />
+    <Content Include="images\gulumse.jpg" />
+    <Content Include="images\ilginc_sikayetler.jpg" />
+    <Content Include="images\img_chania.jpg" />
+    <Content Include="images\img_chania2.jpg" />
+    <Content Include="images\img_flower.jpg" />
+    <Content Include="images\img_flower2.jpg" />
+    <Content Include="images\info.png" />
+    <Content Include="images\kayanreklam.jpg" />
+    <Content Include="images\key.png" />
+    <Content Include="images\key1.png" />
+    <Content Include="images\kurumsal.jpg" />
+    <Content Include="images\lock.png" />
+    <Content Include="images\LogoSon.png" />
+    <Content Include="images\medya.jpg" />
+    <Content Include="images\msgBoxBackGround.png" />
+    <Content Include="images\ok.jpg" />
+    <Content Include="images\reklamgmail.jpg" />
+    <Content Include="images\reklampaylas.jpg" />
+    <Content Include="images\sikayethaber.jpg" />
+    <Content Include="images\sikayetsrc.jpg" />
+    <Content Include="images\sikayetsürc.png" />
+    <Content Include="images\sikayetsüreci.png" />
+    <Content Include="images\sikayetvar_medya.jpg" />
+    <Content Include="images\slider1.jpg" />
+    <Content Include="images\slider2.jpg" />
+    <Content Include="images\slider3.jpg" />
+    <Content Include="images\slider4.jpg" />
+    <Content Include="images\tesekkur.jpg" />
+    <Content Include="images\tesekkürmesajı.png" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\uyeol.png" />
+    <Content Include="images\yesilok.jpg" />
+    <Content Include="images\Şikayetvar_Logo.png" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\SonsuzSozluk.csproj.CoreCompileInputs.cache" />
+    <Content Include="Admin\Site1.Master" />
+    <Content Include="App\Site1.Master" />
+    <Content Include="bin\roslyn\csc.exe.config" />
+    <Content Include="bin\roslyn\csc.rsp" />
+    <Content Include="bin\roslyn\csi.exe.config" />
+    <Content Include="bin\roslyn\csi.rsp" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\vbc.exe.config" />
+    <Content Include="bin\roslyn\vbc.rsp" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="bin\SonsuzSozluk.dll.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\css\animate.css" />
+    <Content Include="Admin\css\gundemStyle.css" />
+    <Content Include="Admin\css\GundemYorum.css" />
+    <Content Include="Admin\css\MasterPageStyle.css" />
+    <Content Include="Admin\css\uyelerStyle.css" />
+    <Content Include="Admin\css\yazarlarStyle.css" />
+    <Content Include="Admin\css\YazarUyeDetay.css" />
+    <Content Include="Admin\Gundem.aspx" />
+    <Content Include="Admin\images\avatar_female.png" />
+    <Content Include="Admin\images\avatar_male.png" />
+    <Content Include="Admin\images\user.png" />
+    <Content Include="Admin\js\jssayac.js" />
+    <Content Include="Admin\js\menu.js" />
+    <Content Include="Admin\Uyeler.aspx" />
+    <Content Include="Admin\Yazarlar.aspx" />
+    <Content Include="Admin\YazarUyeDetay.aspx" />
+    <Content Include="App\css\app.css" />
+    <Content Include="App\css\AppGundem.css" />
+    <Content Include="App\css\GundemEkle.css" />
+    <Content Include="App\css\GundemFiltrele.css" />
+    <Content Include="App\css\Login.css" />
+    <Content Include="App\css\styles.css" />
+    <Content Include="App\css\theme-classic.css" />
+    <Content Include="App\Default.aspx" />
+    <Content Include="App\DefaultFiltrele.aspx" />
+    <Content Include="App\GundemEkle.aspx" />
+    <Content Include="App\GundemeYorumEkle.aspx" />
+    <Content Include="App\img\consumer_bg05.jpg" />
+    <Content Include="App\img\consumer_bg08.jpg" />
+    <Content Include="App\img\logoSozluk.png" />
+    <Content Include="App\js\core.js" />
+    <Content Include="App\js\jquery-1.12.3.min.js" />
+    <Content Include="App\js\plugins.js" />
+    <Content Include="App\Login.aspx" />
+    <Content Include="App\Sigup.aspx" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="Landing\css\animate.css" />
+    <Content Include="Landing\css\bootstrap.css" />
+    <Content Include="Landing\css\bootstrap.min.css" />
+    <Content Include="Landing\css\Langingstil.css" />
+    <Content Include="Landing\css\style.css" />
+    <Content Include="Landing\css\theme-classic.css" />
+    <Content Include="Landing\img\01.jpg" />
+    <Content Include="Landing\img\02.jpg" />
+    <Content Include="Landing\img\03.jpg" />
+    <Content Include="Landing\img\04.jpg" />
+    <Content Include="Landing\img\case01_lg.jpg" />
+    <Content Include="Landing\img\case02_lg.jpg" />
+    <Content Include="Landing\img\case03_lg.jpg" />
+    <Content Include="Landing\img\favicon.ico" />
+    <Content Include="Landing\img\KlasSözlük.png" />
+    <Content Include="Landing\img\login.png" />
+    <Content Include="Landing\img\logoSozluk.png" />
+    <Content Include="Landing\img\question.png" />
+    <Content Include="Landing\img\sign up.png" />
+    <Content Include="Landing\index.aspx" />
+    <Content Include="Landing\js\bootstrap.js" />
+    <Content Include="Landing\js\bootstrap.min.js" />
+    <Content Include="Landing\js\custom.js" />
+    <Content Include="Landing\js\jquery-2.1.1.min.js" />
+    <Content Include="Landing\js\jquery.appear.js" />
+    <Content Include="Landing\js\jquery.js" />
+    <Content Include="Landing\js\jquery.superslides.js" />
+    <Content Include="Landing\js\jssayac.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Gundem.aspx.cs">
+      <DependentUpon>Gundem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Gundem.aspx.designer.cs">
+      <DependentUpon>Gundem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GundemIncele.aspx.cs">
+      <DependentUpon>GundemIncele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GundemIncele.aspx.designer.cs">
+      <DependentUpon>GundemIncele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Uyeler.aspx.cs">
+      <DependentUpon>Uyeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Uyeler.aspx.designer.cs">
+      <DependentUpon>Uyeler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Yazarlar.aspx.cs">
+      <DependentUpon>Yazarlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Yazarlar.aspx.designer.cs">
+      <DependentUpon>Yazarlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\YazarUyeDetay.aspx.cs">
+      <DependentUpon>YazarUyeDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\YazarUyeDetay.aspx.designer.cs">
+      <DependentUpon>YazarUyeDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Yorum.aspx.cs">
+      <DependentUpon>Yorum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Yorum.aspx.designer.cs">
+      <DependentUpon>Yorum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\DefaultFiltrele.aspx.cs">
+      <DependentUpon>DefaultFiltrele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\DefaultFiltrele.aspx.designer.cs">
+      <DependentUpon>DefaultFiltrele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\GundemDuzenle.aspx.cs">
+      <DependentUpon>GundemDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\GundemDuzenle.aspx.designer.cs">
+      <DependentUpon>GundemDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\GundemEkle.aspx.cs">
+      <DependentUpon>GundemEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\GundemEkle.aspx.designer.cs">
+      <DependentUpon>GundemEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\GundemeYorumEkle.aspx.cs">
+      <DependentUpon>GundemeYorumEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\GundemeYorumEkle.aspx.designer.cs">
+      <DependentUpon>GundemeYorumEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\KullaniciProfil.aspx.cs">
+      <DependentUpon>KullaniciProfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\KullaniciProfil.aspx.designer.cs">
+      <DependentUpon>KullaniciProfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\YorumDuzenle.aspx.cs">
+      <DependentUpon>YorumDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\YorumDuzenle.aspx.designer.cs">
+      <DependentUpon>YorumDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Veriler.cs" />
+    <Compile Include="App_Code\Yorumlar.cs" />
+    <Compile Include="App_Code\Gundemler.cs" />
+    <Compile Include="App\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Sigup.aspx.cs">
+      <DependentUpon>Sigup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Sigup.aspx.designer.cs">
+      <DependentUpon>Sigup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Kullanicilar.cs" />
+    <Compile Include="Landing\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Landing\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\tr\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63970</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:63970/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
